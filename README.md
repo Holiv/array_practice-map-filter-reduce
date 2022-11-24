@@ -2,7 +2,7 @@
 -------
 ### Coding Challenge to practice Array methods (2)
 
-[Read the code here](./array_coding-challenge.js)
+[Read the code here](./coding_challenge_2.js)
 
 ### *The challange*
 
