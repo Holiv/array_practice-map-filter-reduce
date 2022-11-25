@@ -29,3 +29,10 @@ const calcAverageHumanAge = dogsAgeArr => {
 
 console.log(calcAverageHumanAge(dogsAge1))
 console.log(calcAverageHumanAge(dogsAge2))
+
+const calcAverageHumanAge_chain = dogsAge => {
+    dogsAge.map(dogAge => dogAge <= 2 ? dogAge * 2 : 16 + dogsAge * 4).filter(isAdult => isAdult >= 18).reduce((acAge, ccAge, i, arr) => (acAge + ccAge)/arr.length);
+}
+
+console.log(calcAverageHumanAge_chain(dogsAge1))
+console.log(calcAverageHumanAge_chain(dogsAge2))
